@@ -5,7 +5,6 @@ import Main2 from "./components/task2/Main2/Main2";
 import Page from "./pages/task3/Page";
 
 import { BrowserRouter } from "react-router-dom";
-import "./App.css";
 
 function App() {
   return (
@@ -13,21 +12,21 @@ function App() {
       <h1>Hooks & Context API</h1>
       <div className="task task1">
         <h3>Задача 1. Навигационное меню</h3>
-        <BrowserRouter>
+        <BrowserRouter basename="/router/" >
           <Menu />
           <Main />
         </BrowserRouter>
       </div>
       <div className="task task2">
         <h3>Задача 2. CRUD</h3>
-        <BrowserRouter>
+        <BrowserRouter basename="/router/">
           <Header/>
           <Main2 />
         </BrowserRouter>
       </div>
       <div className="task task3">
         <h3>Задача 3. Authentication</h3>
-        <BrowserRouter>
+        <BrowserRouter basename="/router/">
           <Page />          
         </BrowserRouter>
       </div>
