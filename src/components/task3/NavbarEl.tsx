@@ -4,7 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import LoginForm from "./LoginForm";
 import UserInfo from "./UserInfo";
 import "bootstrap/dist/css/bootstrap.min.css";
-import style from "./authentication.module.css";
 
 export interface INavbarProps {
   token: string;
@@ -13,7 +12,7 @@ export interface INavbarProps {
 
 const NavbarEl = ({ token, setToken }: INavbarProps) => {
   return (
-    <Navbar expand="lg" className={style.navbar}>
+    <Navbar expand="lg" className="bg-body-tertiary mt-5">
       <Container fluid>
         <Navbar.Brand href="#">Neto Social</Navbar.Brand>
         <Stack direction="horizontal" gap={3}>

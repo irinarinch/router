@@ -38,7 +38,7 @@ const Main2 = () => {
             path="/posts/:id"
             element={<ShowPostPage getPosts={getPosts} />}
           />
-          <Route path="/*" element={<Navigate to="/" replace={true} />} />
+          <Route path="/posts" element={<Navigate to="/" replace={true} />} />
         </Routes>
       </div>
     </>

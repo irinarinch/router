@@ -27,7 +27,7 @@ const ShowCardPage = () => {
   return (
     <div className={style.news_container}>
       {current && <NewsCard news={current} />}
-      {error && <div className={'error'}>{error.response?.status} Not Found</div>}
+      {error && <div className={style.error}>{error.response?.status} Not Found</div>}
     </div>
   );
 };
