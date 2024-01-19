@@ -1,0 +1,37 @@
+.card {
+  width: 70%;
+  margin: 20px auto;
+  background-color: #dde7f1;
+  padding: 50px 15px;
+  border: none;
+  text-align: left;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+}
+
+.message {
+  color: red;
+}
+
+.news {
+  width: 25rem;
+  margin: 20px;
+}
+
+.news_container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(248, 249, 250);
+}
+

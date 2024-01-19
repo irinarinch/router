@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 30px;
+  width: 800px; 
+  text-align: right;
+}
+
+.button {
+  background-color: #4469ae;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 7px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

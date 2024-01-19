@@ -1,0 +1,76 @@
+.container {
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 10px;
+  width: 800px;
+  text-align: left;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+}
+
+.user_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user_name {
+  color: #4469ae;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.user_info {
+  padding: 5px;
+}
+
+.body {
+  padding: 10px;
+  font-size: 30px;  
+}
+
+.empty_box {
+  border-top: 1px solid rgb(219, 216, 216);
+  text-align: center;
+  padding: 10px;
+}
+
+.buttons {
+  text-align: right;
+  border-top: 1px solid rgb(219, 216, 216);
+}
+
+.edit_button {
+  background-color: #4469ae;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 7px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.remove_button {
+  background-color: #b04546;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 7px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
